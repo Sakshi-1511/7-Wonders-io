@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .img {
+
+
+            width: 500px;
+            height: 380px;
+            padding-left: 20px;
+            margin-right: 20px;
+            margin-top: 80px;
+
+        }
+    </style>
+    <title>Ass4</title>
+
+</head>
+
+<body>
+    <div class="row">
+        <iframe width="1366" height="400" src="https://www.youtube.com/embed/xaSbYIeqGWg"
+            title="Rome, Italy: The Colosseum" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <div class="col">
+
+            <img src="c3.jpg" class="img"><br>
+
+        </div>
+
+        <div class="col" style="margin-top: 100px;padding: 8px;">
+            <center>
+                <h1>Colosseum, Rome</h1><br><br>
+                <p style="margin-right: 10px;">Rome's Colosseum is known around the world for its commanding appearance.
+                    This 2,000 years old Colosseum is Italy’s top tourist destination. This wonder was started by
+                    Vespasian, the emperor, but it wasn’t finished until Titus took over in 80 AD. The amphitheater
+                    measures 620 by 513 feet, which is significantly larger than anyone expects. Its intricate network
+                    of vaults is an engineering marvel in and of itself and could accommodate 50,000 gasping spectators.
+                    It was employed in antiquity for public performances, including simulated sea wars and gladiatorial
+                    fights. It is now a well-liked tourist destination and a representation of Imperial Rome.</p>
+                <br><br>
+            </center>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
